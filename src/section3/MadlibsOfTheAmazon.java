@@ -5,17 +5,18 @@ import javax.swing.JOptionPane;
 public class MadlibsOfTheAmazon {
 	
 	public static void main(String[] args) {
-		// Put this sentence in a pop up:
+		// Put this sentence in a pop up: 
+		String input=JOptionPane.showInputDialog(null, "If you find yourself having to cross a piranha-infested river,here's how to do it...");
 		// If you find yourself having to cross a piranha-infested river, here's how to do it...
 		
 		// Get the user to enter an adjective
-
+   String input=JOptionPane.showInputDialog(null, "Write an adjective");
 		// Get the user to enter a type of liquid
-
+   String input2=JOptionPane.showInputDialog(null, "Write a liquid");
 		// Get the user to enter a body part
-
+   String input3=JOptionPane.showInputDialog(null, "Enter the name of a body part");
 		// Get the user to enter a verb
-
+   
 		// Get the user to enter a place
 
 		// Fit the user's words into this sentence, and save it in a String:
